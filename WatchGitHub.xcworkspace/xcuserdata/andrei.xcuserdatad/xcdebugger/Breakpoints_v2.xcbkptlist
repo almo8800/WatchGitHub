@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B70C79EA-7D75-44B9-8489-8D9B4F1C57B3"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A696A95-FC28-4FCB-B31B-B886FC2B93A8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatchGitHub/ViewControllers/RepoDetailInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5A696A95-FC28-4FCB-B31B-B886FC2B93A8 - b4162e32f3dc0e48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WatchGitHub.RepoDetailInfoViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/ViewControllers/RepoDetailInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1168">
+               </Location>
+               <Location
+                  uuid = "5A696A95-FC28-4FCB-B31B-B886FC2B93A8 - b4162e32f3dc0e48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WatchGitHub.RepoDetailInfoViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/ViewControllers/RepoDetailInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1344">
+               </Location>
+               <Location
+                  uuid = "5A696A95-FC28-4FCB-B31B-B886FC2B93A8 - b4162e32f3dc0e48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WatchGitHub.RepoDetailInfoViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/ViewControllers/RepoDetailInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "874812FF-995C-467B-9007-660D379D0C14"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatchGitHub/ViewControllers/AuthPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "saveAuthToken()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD9CCC9A-FA6B-44D5-8643-721CBB7A49BA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatchGitHub/ViewModels/RepoDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "downloadReadmeFile()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE28096D-7453-41B3-9AC8-6348790EF44E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatchGitHub/ViewModels/RepoDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "downloadReadmeFile()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4AEC0A7C-FB42-4B39-ABCF-FC906DFA0BF2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatchGitHub/Services/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "downloadReadme(readmeDownloadUrl:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4AEC0A7C-FB42-4B39-ABCF-FC906DFA0BF2 - e283971dcbf0eb92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WatchGitHub.NetworkManager.downloadReadme(readmeDownloadUrl: Swift.String, completion: (Swift.Result&lt;__C.NSAttributedString, Alamofire.AFError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "4AEC0A7C-FB42-4B39-ABCF-FC906DFA0BF2 - e283971dcbf0eb50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WatchGitHub.NetworkManager.downloadReadme(readmeDownloadUrl: Swift.String, completion: (Swift.Result&lt;__C.NSAttributedString, Alamofire.AFError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AE1E4FE-44B8-46D5-9112-7B3F4CF4B795"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatchGitHub/ViewControllers/AuthPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "textFieldDidChange(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8AE1E4FE-44B8-46D5-9112-7B3F4CF4B795 - d69002a3a358d591"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WatchGitHub.AuthPageViewController.updateTextFieldBorderColor(validate: Swift.Bool) -&gt; ()"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/ViewControllers/AuthPageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "8AE1E4FE-44B8-46D5-9112-7B3F4CF4B795 - cc7e30478023e13d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WatchGitHub.AuthPageViewController.textFieldDidChange(__C.UITextField) -&gt; ()"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/ViewControllers/AuthPageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE85FF52-6CDE-4541-A889-A5A7685BD737"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatchGitHub/Screens/AuthPage/AuthPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "textFieldDidChange(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CE85FF52-6CDE-4541-A889-A5A7685BD737 - e0e1d70569f36f9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WatchGitHub.AuthPageViewController.textFieldDidChange(__C.UITextField) -&gt; ()"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/Screens/AuthPage/AuthPageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "CE85FF52-6CDE-4541-A889-A5A7685BD737 - e0e1d70569f36f9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WatchGitHub.AuthPageViewController.textFieldDidChange(__C.UITextField) -&gt; ()"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/Screens/AuthPage/AuthPageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3953C9CE-910D-41B6-899B-1B17198BA3E9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatchGitHub/Screens/AuthPage/AuthPageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "validateTextfield(authToken:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3953C9CE-910D-41B6-899B-1B17198BA3E9 - c0bf61b1feee5318"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Int, Alamofire.AFError&gt;) -&gt; () in WatchGitHub.AuthPageViewModel.validateTextfield(authToken: Swift.String) -&gt; ()"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/Screens/AuthPage/AuthPageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "380">
+               </Location>
+               <Location
+                  uuid = "3953C9CE-910D-41B6-899B-1B17198BA3E9 - c0bf61b1feee5318"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Int, Alamofire.AFError&gt;) -&gt; () in WatchGitHub.AuthPageViewModel.validateTextfield(authToken: Swift.String) -&gt; ()"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/Screens/AuthPage/AuthPageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "3953C9CE-910D-41B6-899B-1B17198BA3E9 - c0bf61b1feee5318"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Int, Alamofire.AFError&gt;) -&gt; () in WatchGitHub.AuthPageViewModel.validateTextfield(authToken: Swift.String) -&gt; ()"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/Screens/AuthPage/AuthPageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD62B4B8-B0AF-4C29-B87B-9B96C27B340E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatchGitHub/Screens/AuthPage/AuthPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "updateTextFieldBorderColor(validate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7FDDE8F-6663-4C3E-BB20-1A05CCE811E4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatchGitHub/Screens/AuthPage/AuthPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "updateTextFieldBorderColor(validate:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F93636DB-2B5A-4E8C-B223-51FA6533FF5C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatchGitHub/Screens/AuthPage/AuthPageModulAssembly.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "buildModule()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F93636DB-2B5A-4E8C-B223-51FA6533FF5C - 8a4168207189b0eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static WatchGitHub.AuthPageModuleAssembly.buildModule() -&gt; __C.UIViewController"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/Screens/AuthPage/AuthPageModulAssembly.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "F93636DB-2B5A-4E8C-B223-51FA6533FF5C - 8a4168207189b0eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static WatchGitHub.AuthPageModuleAssembly.buildModule() -&gt; __C.UIViewController"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/Screens/AuthPage/AuthPageModulAssembly.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "F93636DB-2B5A-4E8C-B223-51FA6533FF5C - 8a4168207189b0eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static WatchGitHub.AuthPageModuleAssembly.buildModule() -&gt; __C.UIViewController"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/Screens/AuthPage/AuthPageModulAssembly.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "F93636DB-2B5A-4E8C-B223-51FA6533FF5C - 8a4168207189b0eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static WatchGitHub.AuthPageModuleAssembly.buildModule() -&gt; __C.UIViewController"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/Screens/AuthPage/AuthPageModulAssembly.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D777C90-D367-430A-B1C0-7BDE366B647E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatchGitHub/Screens/AuthPage/AuthPageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewContr"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20A134CD-CBB7-4FD1-A537-D093EDCB14F2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WatchGitHub/Screens/AuthPage/AuthPageViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewContr"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "20A134CD-CBB7-4FD1-A537-D093EDCB14F2 - 71450c07a86abfbc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WatchGitHub.AuthPageViewModel.viewContr.didset : Swift.Optional&lt;WatchGitHub.AuthPageViewProtocol&gt;"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/Screens/AuthPage/AuthPageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "20A134CD-CBB7-4FD1-A537-D093EDCB14F2 - e7df5e1a6170fa13"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WatchGitHub.AuthPageViewModel.viewContr.willset : Swift.Optional&lt;WatchGitHub.AuthPageViewProtocol&gt;"
+                  moduleName = "WatchGitHub"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AlexMokrousov/Documents/SWIFT/WatchGitHub/WatchGitHub/Screens/AuthPage/AuthPageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
