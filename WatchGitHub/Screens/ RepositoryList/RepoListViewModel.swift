@@ -7,36 +7,57 @@
 
 import Foundation
 
-struct RepoListViewModel {
+protocol RepoListViewModelProtocol {
+    
+    var repos: [Repo]? { get set }
+    var numberOfRowsInSection: Int? { get }
+    
+    func repoAtIndex(_ index: Int) -> RepoViewModel?
+    func repoDetailsAtIndex(_ index: Int) -> Repo?
+    func fetchRepositories()
+    
+}
+
+class RepoListViewModel: RepoListViewModelProtocol {
+
+    weak var viewContr: RepoListViewProtocol?
     
     var repos: [Repo]?
     var numberOfSection: Int? { return 1 }
-    var numberOfRowsInSecrion: Int? { return self.repos?.count }
+    var numberOfRowsInSection: Int? { return self.repos?.count }
+    
+    let networkManager: NetworkManager
+    
+    init(networkManager: NetworkManager) {
+        self.networkManager = networkManager
+        fetchRepositories()
+    }
     
     func repoAtIndex(_ index: Int) -> RepoViewModel? {
         let repo = self.repos?[index]
         return RepoViewModel(repo!)
+        
     }
     
-    func repoDetailsAtIndex(_ index: Int) -> RepoDetailsViewModel? {
+    func repoDetailsAtIndex(_ index: Int) -> Repo? {
         guard let repo = self.repos?[index] else { return nil }
         
-        return RepoDetailsViewModel(repo)
+        return repo
             
     }
     
-    mutating func fetchRepositories() {
+    func fetchRepositories() {
         
-        var array: [Repo] = []
-        NetworkManager.shared.getRepositories { result in
+        networkManager.getRepositories { result in
             switch result {
             case .success(let data):
-               array = data
+                self.repos = data
+                self.viewContr?.collectionView.reloadData()
             case .failure(let error):
                 print(error)
             }
         }
-        repos = array
+        
     }
 }
 

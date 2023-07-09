@@ -12,17 +12,14 @@ final class MainNavigationController: UINavigationController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setup()
     }
 }
 
 private extension MainNavigationController {
-    
+
     func setup() {
-        
         let authPageController = AuthPageModuleAssembly.buildModule()
         viewControllers = [authPageController]
     }
-    
 }

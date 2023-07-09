@@ -10,9 +10,10 @@ import UIKit
 class RepoCollectionView: UICollectionView, UICollectionViewDataSource {
     
     private var repositories: [Repo]!
-    var repoListVM: RepoListViewModel!
+    var repoListVM: RepoListViewModelProtocol?
     
-    init() {
+    init(viewModel: RepoListViewModel) {
+        self.repoListVM = viewModel
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
         super.init(frame: .zero, collectionViewLayout: layout)
@@ -29,7 +30,12 @@ class RepoCollectionView: UICollectionView, UICollectionViewDataSource {
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return  self.repoListVM == nil ? 0 : self.repoListVM.numberOfRowsInSecrion!
+        
+        guard let number = self.repoListVM == nil ? 0 : self.repoListVM?.numberOfRowsInSection else {
+            return 0
+        }
+        
+        return number
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -39,7 +45,7 @@ class RepoCollectionView: UICollectionView, UICollectionViewDataSource {
             fatalError("RepoCell not found")
         }
         
-        let repoVM = self.repoListVM.repoAtIndex(indexPath.row)
+        let repoVM = self.repoListVM?.repoAtIndex(indexPath.row)
         cell.titleLabel.text = repoVM?.name
         cell.descriptionLabel.text = repoVM?.description
         cell.languageLabel.text = repoVM?.language
@@ -47,11 +53,6 @@ class RepoCollectionView: UICollectionView, UICollectionViewDataSource {
         return cell
     }
     
-//    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-////        let thisRepoViewModel = repoListVM.repoDetailsAtIndex(indexPath.row)
-////        let repoDetailsViewController = RepoDetailInfoViewController(repoDetailsViewModel: thisRepoViewModel)
-//        
-//    }
     
     
     

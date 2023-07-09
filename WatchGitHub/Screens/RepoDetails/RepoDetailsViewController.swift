@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RepoInfoViewController: UIViewController, UITextViewDelegate {
+class RepoDetailsViewController: UIViewController, UITextViewDelegate {
     
     var repoDetailsViewModel: RepoDetailsViewModel!
     
@@ -21,6 +21,16 @@ class RepoInfoViewController: UIViewController, UITextViewDelegate {
         didSet {
             readmeView.delegate = self
         }
+    }
+    
+    
+    init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?, viewModel: RepoDetailsViewModel) {
+        self.repoDetailsViewModel = viewModel
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
     override func viewDidLoad() {

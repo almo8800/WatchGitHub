@@ -11,7 +11,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AuthPageViewController" customModule="WatchGitHub" customModuleProvider="target">
             <connections>
-                <outlet property="signInButton" destination="8ty-MX-oAV" id="ngn-mh-me6"/>
                 <outlet property="tokenTextField" destination="ViU-Tv-Rn4" id="d1S-Bd-mou"/>
                 <outlet property="view" destination="iN0-l3-epB" id="yCD-rD-sFd"/>
             </connections>
@@ -48,28 +47,18 @@
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Sign In"/>
                     <connections>
-                        <action selector="signInButton:" destination="-1" eventType="touchUpInside" id="HfL-ws-AAW"/>
+                        <action selector="signInButton:" destination="-1" eventType="touchUpInside" id="X6U-gh-7uM"/>
                     </connections>
                 </button>
                 <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0l8-Ju-siA">
-                    <rect key="frame" x="58.5" y="246" width="297" height="30"/>
+                    <rect key="frame" x="116.5" y="246" width="181.5" height="30"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Input your github token or" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBf-vx-HMb">
-                            <rect key="frame" x="0.0" y="0.0" width="196.5" height="30"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Input your GitHub token" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBf-vx-HMb">
+                            <rect key="frame" x="0.0" y="0.0" width="181.5" height="30"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crC-oT-zSA">
-                            <rect key="frame" x="204.5" y="0.0" width="92.5" height="30"/>
-                            <color key="backgroundColor" red="0.35744919139999998" green="0.6066706731" blue="0.37177666079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="plain" title="use mine"/>
-                            <connections>
-                                <action selector="useMineButtonTappe:" destination="-1" eventType="touchUpInside" id="U8H-cl-JKn"/>
-                            </connections>
-                        </button>
                     </subviews>
                 </stackView>
             </subviews>

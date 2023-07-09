@@ -15,14 +15,7 @@ protocol AuthPageViewModelProtocol {
 
 class AuthPageViewModel: AuthPageViewModelProtocol {
     
-    weak var viewContr: AuthPageViewProtocol? {
-        willSet {
-            print("viewContr new value wiil set \(newValue)")
-        }
-        didSet {
-            print("viewContr old value was \(oldValue)")
-        }
-    }
+    weak var viewContr: AuthPageViewProtocol?
     let networkManager: NetworkManager
     let keyValueStorage: KeyValueStorage
     

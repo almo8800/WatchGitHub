@@ -15,9 +15,7 @@ class AuthPageViewController: UIViewController, AuthPageViewProtocol {
   
     
     private let authPageVM: AuthPageViewModelProtocol
-    
     @IBOutlet weak var tokenTextField: UITextField!
-    @IBOutlet weak var signInButton: UIButton!
     
     init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?, viewModel: AuthPageViewModel) {
         self.authPageVM = viewModel
@@ -28,37 +26,22 @@ class AuthPageViewController: UIViewController, AuthPageViewProtocol {
         fatalError("init(coder:) has not been implemented")
     }
     
-                   
-//    init(viewModel: AuthPageViewProtocol, nibName ) {
-//        self.authPageVM = viewModel
-//        super.init
-//    }
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-       // authPageVM.view = self
-        
-        signInButton.layer.cornerRadius = 5
-        
+
         navigationItem.backButtonTitle = ""
-        
-        
+    
         tokenTextField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
     }
     
-    @IBAction func useMineButtonTappe(_ sender: Any) {
-        tokenTextField.text = "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"
-        textFieldDidChange(tokenTextField)
-    
-    }
     @IBAction func signInButton(_ sender: Any) {
-        
             saveAuthToken()
-            let nextVC = RepositoryListViewController(nibName: "RepositoryListViewController", bundle: nil)
-            navigationController?.pushViewController(nextVC, animated: true)
         
+        let repoListViewController = RepoListModuleAssembly.buildModule()
+        navigationController?.pushViewController(repoListViewController, animated: true)
+        
+//        let nextVC = RepositoryListViewController(nibName: "RepositoryListViewController", bundle: nil, viewModel: <#RepoListViewModel#>)
+//            navigationController?.pushViewController(nextVC, animated: true)
     }
     
     @objc func textFieldDidChange(_ textField: UITextField) {
@@ -71,12 +54,7 @@ class AuthPageViewController: UIViewController, AuthPageViewProtocol {
         let textFieldLayer = self.tokenTextField.layer
         textFieldLayer.borderWidth = 3
         textFieldLayer.borderColor = validate ? UIColor.green.cgColor : UIColor.red.cgColor
-        self.signInButton.isEnabled = validate
-        
     }
-    
-    
- 
     
     func saveAuthToken() {
         authPageVM.saveAuthToken(token: tokenTextField.text ?? "")

@@ -7,13 +7,22 @@
 
 import Foundation
 
-struct RepoDetailsViewModel {
+protocol RepoDetailsViewModelProtocol {
     
-   var isRepo: Repo?
+}
+
+class RepoDetailsViewModel {
     
-    init(_ repo: Repo) {
-        
+    weak var viewContr: RepoDetailsViewController?
+    
+    var isRepo: Repo?
+    let networkManager: NetworkManager!
+    
+    init(_ repo: Repo, networkManager: NetworkManager) {
         self.isRepo = repo
+        self.networkManager = networkManager
+        
+       
         link = repo.html_url
         license = repo.license
         licenseTypeName = repo.license?.name ?? "no license"
@@ -39,7 +48,7 @@ struct RepoDetailsViewModel {
     
     func downloadReadmeFile() {
         print(readmeURL)
-        NetworkManager.shared.downloadReadme(readmeDownloadUrl: readmeURL ?? "") { result in
+        networkManager.downloadReadme(readmeDownloadUrl: readmeURL ?? "") { result in
             print(result)
         }
     }
