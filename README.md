@@ -1,2 +1,14 @@
-# WatchGitHub
-App to see the list of your repositories, their stats and readme file. 
+# WatchGitHub :eyes:
+Взгляните на список своих репозиториев, их статистику. Авторизация через GitHub access token. 
+
+**Технологии** :wrench: 
+- UIKit
+- Alamofire
+- MVVM
+  
+**Будущие доработки**
+- Чтение readme из приватных репозиториев и неосновных веток
+- Форматирование markdown-текста из readme в обычный
+- Деавторизация по кнопке выход
+- Сохранение авторизации пользователя
+  
