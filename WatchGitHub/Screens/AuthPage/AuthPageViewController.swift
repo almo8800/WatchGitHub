@@ -39,9 +39,7 @@ class AuthPageViewController: UIViewController, AuthPageViewProtocol {
         
         let repoListViewController = RepoListModuleAssembly.buildModule()
         navigationController?.pushViewController(repoListViewController, animated: true)
-        
-//        let nextVC = RepositoryListViewController(nibName: "RepositoryListViewController", bundle: nil, viewModel: <#RepoListViewModel#>)
-//            navigationController?.pushViewController(nextVC, animated: true)
+    
     }
     
     @objc func textFieldDidChange(_ textField: UITextField) {
