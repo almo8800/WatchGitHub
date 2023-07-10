@@ -20,7 +20,7 @@ class RepoCollectionView: UICollectionView, UICollectionViewDataSource {
         
         
         backgroundColor = .black
-        //delegate = self
+    
         dataSource = self
         register(RepoCollectionViewCell.self, forCellWithReuseIdentifier: "RepoCell")
         translatesAutoresizingMaskIntoConstraints = false
@@ -52,8 +52,6 @@ class RepoCollectionView: UICollectionView, UICollectionViewDataSource {
         
         return cell
     }
-    
-    
     
     
     required init?(coder: NSCoder) {
