@@ -30,10 +30,10 @@ class NetworkManager {
     
     var headersForReadme: HTTPHeaders? {
         var readmeHedders: HTTPHeaders = [:]
-        if let token = authToken {
+        if authToken != nil {
             readmeHedders = [
                 "Accept" : "application/vnd.github+json",
-                "Authorization" : "Bearer \(authToken)",
+                "Authorization" : "Bearer \(authToken ?? "")",
                 "X-GitHub-Api-Version" : "2022-11-28"
             ]
         }

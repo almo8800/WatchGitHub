@@ -16,7 +16,7 @@ protocol AuthPageModuleAssemblyProtocol {
 enum AuthPageModuleAssembly: AuthPageModuleAssemblyProtocol {
     
     static func buildModule() -> UIViewController {
-        var viewModel = AuthPageViewModel(networkManager: NetworkManager.shared, keyValueStorage: KeyValueStorage.shared)
+        let viewModel = AuthPageViewModel(networkManager: NetworkManager.shared, keyValueStorage: KeyValueStorage.shared)
         let viewController = AuthPageViewController(nibName: "AuthViewController", bundle: nil, viewModel: viewModel)
         viewModel.viewContr = viewController
                 

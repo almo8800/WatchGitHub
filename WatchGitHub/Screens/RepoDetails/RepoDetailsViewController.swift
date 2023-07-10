@@ -46,7 +46,7 @@ class RepoDetailsViewController: UIViewController, UITextViewDelegate {
     func navigationBarSetup() {
      
         // Change the background color of the navigation bar
-        var appearance = UINavigationBarAppearance()
+        let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
         appearance.backgroundColor = .systemGray3
         

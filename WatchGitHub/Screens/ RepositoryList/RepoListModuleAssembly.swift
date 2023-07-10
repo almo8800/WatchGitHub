@@ -16,7 +16,7 @@ protocol RepoListModuleAssemblyProtocol {
 enum RepoListModuleAssembly: RepoListModuleAssemblyProtocol {
     
     static func buildModule() -> UIViewController {
-        var viewModel = RepoListViewModel(networkManager: NetworkManager.shared)
+        let viewModel = RepoListViewModel(networkManager: NetworkManager.shared)
         let viewController = RepoListViewController(nibName: "RepositoryListViewController", bundle: nil, viewModel: viewModel)
         viewModel.viewContr = viewController
                 

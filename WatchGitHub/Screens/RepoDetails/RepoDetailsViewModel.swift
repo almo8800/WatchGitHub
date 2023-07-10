@@ -46,11 +46,5 @@ class RepoDetailsViewModel {
 
     var readmeURL: String?
     
-    func downloadReadmeFile() {
-        print(readmeURL)
-        networkManager.downloadReadme(readmeDownloadUrl: readmeURL ?? "") { result in
-            print(result)
-        }
-    }
 
 }
